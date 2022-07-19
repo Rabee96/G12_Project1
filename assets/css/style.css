@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12pt;
+}
+p {
+  font-size: 10pt;
+  margin: 0px 0px 0px 0px;
+}
+
+body {
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+section {
+  width: 100%;
+  height: 100%;
+}
+footer {
+  background-color: #f7f7f7;
+  margin: 0px;
+}
+.parentDiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.circularImage {
+  width: 19rem;
+  height: 19rem;
+  border-radius: 50%;
+}
+
+.welcomeText {
+  margin: 0px 0px 0px 4rem;
+  height: 19rem;
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.button {
+  background-color: transparent;
+  border: 1px solid gray;
+  border-radius: 16px;
+  height: max-content;
+  width: max-content;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+.button2 {
+  background-color: transparent;
+  border: 1px solid gray;
+  border-radius: 16px;
+  height: max-content;
+  width: max-content;
+  padding: 8px;
+  color: white;
+}
+.button2:hover {
+  background-color: transparent;
+  color: rgb(0, 208, 0);
+  border-color: rgb(0, 208, 0);
+}
+.button:hover {
+  background-color: transparent;
+  color: green;
+  border-color: green;
+}
+#ourWorkSection {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+#ourProductsSection {
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 2rem;
+}
+#section4 {
+  margin-top: 2rem;
+  height: 70%;
+  background-image: url(../img/city2.jpg);
+  background-size: cover;
+}
+#footer {
+  padding: 2rem 0rem 2rem 0rem;
+}
+.ourWorkSection {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.ourProductsSection {
+  height: 100%;
+  padding: 0% 10% 0% 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.icons {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.ourWorkIcon {
+  width: 4rem;
+  height: 2rem;
+  padding: 2rem;
+  color: #565656;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.mediumDash {
+  display: block;
+  height: 1px;
+  width: 8%;
+  border-top: 1px solid black;
+}
+.mediumDashTop {
+  display: block;
+  height: 1px;
+  width: 8%;
+  border-top: 1px solid black;
+}
+.mediumDash2 {
+  display: block;
+  height: 1px;
+  width: 8%;
+  border-top: 1px solid white;
+}
+.productCard {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 3rem;
+}
+.productCardReverse {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  margin-top: 3rem;
+}
+.cardDetails {
+  width: 50%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin: 0rem 2rem 1rem 0rem;
+}
+.cardDetailsReverse {
+  width: 50%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin: 0rem 0rem 1rem 2rem;
+}
+.product {
+  width: 50%;
+  height: 19rem;
+  border-radius: 16px;
+  object-fit: fill;
+}
+.section4 {
+  height: 100%;
+  background-color: #56565688;
+  display: flex;
+  flex-direction: column;
+  padding: 0% 10% 0% 10%;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+.footer {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  padding: 0% 10% 0% 10%;
+  justify-content: center;
+}
+.footerDetails {
+  width: 50%;
+}
+#iconsGroup {
+  margin-top: 1rem;
+}
+.footerForm {
+  width: 50%;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 1rem;
+}
+.formSenderInfo {
+  display: flex;
+  flex-flow: row nowrap;
+}
+#name {
+  width: 50%;
+  margin: 0rem 0.25rem 0rem 0rem;
+}
+#email {
+  width: 50%;
+  margin: 0rem 0rem 0rem 0.25rem;
+}
+.inputType2 {
+  height: 5rem;
+  width: 100%;
+  margin: 1rem 0rem 1rem 0rem;
+}
+.footerIcon {
+  height: 20px;
+  width: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.footerIcon:hover {
+  fill: green;
+  border-color: green;
+}
